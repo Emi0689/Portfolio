@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Resume - Start Bootstrap Theme</title>
+
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/devicon.min.css">
     <!-- Font Awesome icons (free version)-->
@@ -18,6 +18,8 @@
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
     <link href="~/css/style.css" rel="stylesheet" />
     <link href="~/css/cv.css" rel="stylesheet" />
     <link href="~/lib/icofont/icofont.min.css" rel="stylesheet">
@@ -37,7 +39,7 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -56,11 +58,16 @@
                 </div>
                 <p class="lead mb-5">I have with more than 7 seven years of experiencia in programming, more than 5 exclusively in .Net and at present finishing my last five subjects of the Information Systems Engineering career.</p>
                 <div class="social-icons">
-                    <a class="social-icon" href="https://www.linkedin.com/in/emilio-filotti-4447a167/" style="text-decoration:none"><i class="icofont-linkedin"></i></a>
-                    <a class="social-icon" href="https://github.com/Emi0689/" style="text-decoration:none"><i class="icofont-code"></i></a>
-                    <a class="social-icon" href="https://www.facebook.com/emilio.filotti.1/" style="text-decoration:none"><i class="icofont-facebook"></i></a>
-                    <a class="social-icon" href="mailto:emiliofilotti@gmail.com" style="text-decoration:none"><i class="icofont-ui-email"></i></a>
+                    <a class="social-icon" href="https://www.linkedin.com/in/emilio-filotti-4447a167/" style="text-decoration:none" target="_blank"><i class="icofont-linkedin"></i></a>
+                    <a class="social-icon" href="https://github.com/Emi0689/" style="text-decoration:none" target="_blank"><i class="icofont-code"></i></a>
+                    <a class="social-icon" href="https://www.facebook.com/emilio.filotti.1/" style="text-decoration:none" target="_blank"><i class="icofont-facebook"></i></a>
+                    <a class="social-icon" href="mailto:emiliofilotti@gmail.com" style="text-decoration:none" target="_blank"><i class="icofont-ui-email"></i></a>
                 </div>
+                <br />  <br />
+                <div class="mr-auto justify-content-end pull" style="text-align:right">
+                    <a class="btn btn-secondary " href="~/Emilio Filotti CV.pdf" target="_blank" style="background-color:#495057; text-align:right">Descargar CV <i class="icofont-download"></i></a>
+                </div>
+
             </div>
         </section>
         <hr class="m-0" />
@@ -120,7 +127,7 @@
                             administrativas y atención comercial.
                         </p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">10/2014 - 03/2016</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary">09/2014 - 09/2015</span></div>
                 </div>
                 <br /> <br />
                 <div class="d-flex flex-column flex-md-row justify-content-between">
@@ -161,6 +168,23 @@
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">03/2013 - 12/2015</span></div>
                 </div>
+
+                <h2 class="mb-5"></h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Awards & Certifications</h3><br />
+                    </div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check text-warning"></i></span>
+                            CONAIISI - Recognition 2020 for the I.O.T project in the development of a smart-bike - Certificate
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check text-warning"></i></span>
+                            Education IO - Javascript Vanila - ECMAScript 6 -  development - Certificate
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
         <hr class="m-0" />
@@ -170,28 +194,38 @@
                 <h2 class="mb-5">Skills</h2>
                 <div class="subheading mb-3">Programming Languages & Tools</div>
                 <ul class="list-inline dev-icons">
-                    <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                    <li class="list-inline-item"><i class="devicon-csharp-plain"></i></li>
+                    <li class="list-inline-item"><img src="~/img/bootstrap.png" width="90" /></li>
+                    <li class="list-inline-item"><img src="~/img/csshtml.png" width="110" /></li>
+                    <li class="list-inline-item"><img src="~/img/javascript.png" width="55" /></li>
+                    <li class="list-inline-item"><img src="~/img/Csharp.png" /></li>
+                    <li class="list-inline-item"><img src="~/img/netcore.png" width="75" /></li>
+                    <li class="list-inline-item"><img src="~/img/netframework.png" width="75" /></li>
+                    <li class="list-inline-item"><img src="~/img/xamarinformn.png" width="115" /></li>
+                    <li class="list-inline-item"><img src="~/img/sqlserver.png" width="90" /></li>
+                    <li class="list-inline-item"><img src="~/img/mysql.png" width="90" /></li>
+                    <li class="list-inline-item"><img src="~/img/elastic.png" width="110" /></li>
+                    <li class="list-inline-item"><img src="~/img/git.png" width="85" /></li>
+                    <li class="list-inline-item"><img src="~/img/tfs.png" width="90" /></li>
+                    <li class="list-inline-item"><img src="~/img/azure.png" width="85" /></li>
+                    <li class="list-inline-item"><img src="~/img/svn.png" width="80" /></li>
                 </ul>
                 <div class="subheading mb-3">Workflow</div>
                 <ul class="fa-ul mb-0">
                     <li>
                         <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Mobile-First, Responsive Design
+                        Agile Development
                     </li>
                     <li>
                         <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Cross Browser Testing & Debugging
+                        Scrum methodology
                     </li>
                     <li>
                         <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Cross Functional Teams
+                        Unit Testing
                     </li>
                     <li>
                         <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Agile Development & Scrum
+                        Ux & Responsive Design
                     </li>
                 </ul>
             </div>
@@ -206,14 +240,14 @@
                 <div class="col-md-12">
                     <div class="port-head-cont">
                         <button class="btn btn-general btn-green filter-b" data-filter="all">All</button>
-                        <button class="btn btn-general btn-green filter-b" data-filter="consulting">Web Design</button>
-                        <button class="btn btn-general btn-green filter-b" data-filter="finance">Mobile Apps</button>
-                        <button class="btn btn-general btn-green filter-b" data-filter="marketing">Graphics Design</button>
+                        <button class="btn btn-general btn-green filter-b" data-filter="web">Web developments</button>
+                        <button class="btn btn-general btn-green filter-b" data-filter="api">API Service</button>
+                        <button class="btn btn-general btn-green filter-b" data-filter="iot">I.O.T.</button>
                     </div>
                 </div>
             </div>
             <div class="row my-auto">
-                <div class="col-sm-4 portfolio-item filter finance">
+                <div class="col-sm-4 portfolio-item filter api">
                     <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
                         <div class="caption-port">
                             <div class="caption-port-content">
@@ -223,7 +257,7 @@
                         <img class="img-fluid" src="~/img/sitioEnConstruccion.jpg">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item filter marketing">
+                <div class="col-sm-4 portfolio-item filter iot">
                     <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
                         <div class="caption-port">
                             <div class="caption-port-content">
@@ -233,7 +267,7 @@
                         <img class="img-fluid" src="~/img/sitioEnConstruccion.jpg">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item filter consulting">
+                <div class="col-sm-4 portfolio-item filter web">
                     <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
                         <div class="caption-port">
                             <div class="caption-port-content">
@@ -243,7 +277,7 @@
                         <img class="img-fluid" src="~/img/sitioEnConstruccion.jpg">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item filter consulting">
+                <div class="col-sm-4 portfolio-item filter web">
                     <a class="portfolio-link" href="#portfolioModal7" data-toggle="modal">
                         <div class="caption-port">
                             <div class="caption-port-content">
@@ -253,7 +287,7 @@
                         <img class="img-fluid" src="~/img/sitioEnConstruccion.jpg">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item filter consulting">
+                <div class="col-sm-4 portfolio-item filter web">
                     <a class="portfolio-link" href="#portfolioModal8" data-toggle="modal">
                         <div class="caption-port">
                             <div class="caption-port-content">
@@ -263,7 +297,7 @@
                         <img class="img-fluid" src="~/img/sitioEnConstruccion.jpg">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item filter finance">
+                <div class="col-sm-4 portfolio-item filter api">
                     <a class="portfolio-link" href="#portfolioModal9" data-toggle="modal">
                         <div class="caption-port">
                             <div class="caption-port-content">
@@ -273,7 +307,7 @@
                         <img class="img-fluid" src="~/img/sitioEnConstruccion.jpg">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item filter marketing">
+                <div class="col-sm-4 portfolio-item filter iot">
                     <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
                         <div class="caption-port">
                             <div class="caption-port-content">
@@ -283,7 +317,7 @@
                         <img class="img-fluid" src="~/img/sitioEnConstruccion.jpg">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item filter marketing">
+                <div class="col-sm-4 portfolio-item filter iot">
                     <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
                         <div class="caption-port">
                             <div class="caption-port-content">
@@ -293,7 +327,7 @@
                         <img class="img-fluid" src="~/img/sitioEnConstruccion.jpg">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item filter finance">
+                <div class="col-sm-4 portfolio-item filter api">
                     <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
                         <div class="caption-port">
                             <div class="caption-port-content">
@@ -307,50 +341,49 @@
         </section>
 
         <hr class="m-0" />
-        <!-- Awards-->
-        <section class="resume-section" id="awards">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Awards & Certifications</h2>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        Google Analytics Certified Developer
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        Mobile Web Specialist - Google Certification
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        1
-                        <sup>st</sup>
-                        Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        1
-                        <sup>st</sup>
-                        Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        2
-                        <sup>nd</sup>
-                        Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        1
-                        <sup>st</sup>
-                        Place - James Buchanan High School - Hackathon 2006
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                        3
-                        <sup>rd</sup>
-                        Place - James Buchanan High School - Hackathon 2005
-                    </li>
-                </ul>
+        <!-- Contact-->
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column">
+            <div class="row my-auto" id="contact">
+                <div class="col-md-8">
+                    <div class="contact-cont">
+                        <h3>CONTACT</h3>
+                        <div class="heading-border-light"></div>
+                    </div>
+                    <div class="row con-form">
+                        <div class="col-md-12">
+                            <input type="text" name="full-name" id="Contact_Name" placeholder="Full Name" class="form-control">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" name="email" id="Contact_Email" placeholder="Email Id" class="form-control">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" name="subject" id="Contact_Subject" placeholder="Subject" class="form-control">
+                        </div>
+                        <div class="col-md-12"><textarea name="" id="Contact_Text"></textarea></div>
+                        <div class="col-md-12 sub-but"><button class="btn btn-general btn-secondary" role="button" onclick="sendReply()">Send</button></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 mt-5">
+                    <div class="contact-cont2">
+                        <div class="contact-add contact-box-desc">
+                            <h3><i class="icofont-map-pins cl-atlantis fa-2x"></i> Address</h3>
+                            <p>
+                                Almagro, C.A.B.A.<br>
+                                Argentina <br>
+                            </p>
+                        </div>
+                        <div class="contact-phone contact-side-desc contact-box-desc">
+                            <h3><i class="icofont-phone cl-atlantis fa-2x"></i> Phone</h3>
+                            <p>(+54) 11-6238-9209</p>
+                        </div>
+                        <div class="contact-mail contact-side-desc contact-box-desc">
+                            <h3><i class="icofont-ui-email cl-atlantis fa-2x"></i> Email</h3>
+                            <address class="address-details-f">
+                                Email: <a href="mailto:emiliofilotti@gmail.com" class="">emiliofilotti@gmail.com</a>
+                            </address>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
@@ -360,6 +393,10 @@
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/js/cv.js"></script>
     <script src="~/js/jquery.easing.min.js"></script>
     <script src="~/js/jquery.waypoints.min.js"></script>
@@ -393,6 +430,37 @@
             });
 
         });
+
+
+        function sendReply() {
+
+            var formData = new FormData();
+            formData.append("Contact_Name", $("#Contact_Name").val());
+            formData.append("Contact_Email", $("#Contact_Email").val());
+            formData.append("Contact_Subject", $("#Contact_Subject").val());
+            formData.append("Contact_Text", $("#Contact_Text").val());
+
+
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "/Home/SendReply", true);
+            xhr.addEventListener("load", function (evt) { SendComplete(evt); }, false);
+            xhr.addEventListener("error", function (evt) { SendFailed(evt); }, false);
+            xhr.send(formData);
+
+        }
+
+        function SendComplete(evt) {
+            if (evt.target.status == 200)
+                alert("Logo uploaded successfully.");
+
+            else
+                alert("Error Uploading File");
+        }
+
+        function SendFailed(evt) {
+            alert("There was an error attempting to upload the file.");
+
+        }
     </script>
 </body>
 </html>
